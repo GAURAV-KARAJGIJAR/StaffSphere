@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(/images/Colored\ Shapes.svg); */
+    background-color: #CADCFC;
+}
+
+form {
+    margin-top: 25vh;
+    margin-left: 35vw;
+}
+
+.loginform {
+    width: 30vw;
+    height: 50vh;
+    /* box-shadow: 0px 0px 0px 2000px rgba(34, 33, 33, 0.5); */
+    color: #CADCFC;
+    border-radius: 15px;
+    background-color: #00246B;
+}
+
+.fieldset-main {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.fieldset-main-legend {
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.fieldset {
+    width: 22vw;
+    margin-left: 4vw;
+    border-radius: 15px;
+}
+
+.fieldset input {
+    width: 20vw;
+    height: 3vh;
+    outline: transparent;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-left: 2vw;
+    border: none;
+
+    &:hover {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+
+.fieldset-password,
+.fieldset-user {
+    padding: 10px;
+    margin-left: 15px;
+    font-size: medium;
+}
+
+.fieldset-button {
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    margin-top: 4vh;
+    margin-left: 8vw;
+    background-color: #CADCFC;
+
+    &:hover {
+        cursor: pointer;
+        color: #00246B;
+        font-weight: 900;
+        font-size: large;
+        box-shadow: 1px 1px 15px 2px black;
+    }
+
+    &:focus {
+        background-color: #CADCFC;
+        color: #E32A62;
+        outline: none;
+    }
+
+}

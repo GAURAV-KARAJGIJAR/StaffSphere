@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00246B;
+}
+
+.addemployee h1 {
+    /* color: rgb(213, 176, 154); */
+    color: white;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 2vh;
+    text-decoration: lightblue underline;
+}
+
+form {
+    position: absolute;
+    top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 0px 2000px rgba(34, 33, 33, 0.5);
+    margin-top: 2vh;
+    max-width: 50vw;
+    color: #00246B;
+    margin-left: 23vw;
+    background-color: lightblue;
+    border-radius: 15px;
+    position: relative;
+}
+
+.empID{
+    color: whitesmoke;
+    position: absolute;
+    top: -8vh;
+    height: 5vh;
+    background-color: transparent;
+}
+
+.empID input{
+    width: 20vw;
+    height: 5vh;
+    outline: transparent;
+    background-color: transparent;
+    color: aqua;
+    border-radius: 10px;
+    border: 2px solid #E32A62;
+    margin-bottom: 1vw;
+
+    &:hover {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.empID input::placeholder{
+    color: aqua;
+}
+
+form .left input,
+form .right input {
+
+    width: 20vw;
+    height: 5vh;
+    outline: transparent;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 1vw;
+
+    &:hover {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+}
+
+.submit button {
+    width: 30vw;
+    height: 6vh;
+    border-radius: 20px;
+    z-index: 1;
+
+    &:hover {
+        cursor: pointer;
+        font-weight: 800;
+        font-size: large;
+        box-shadow: 1px 1px 10px 2px white;
+    }
+
+    &:focus {
+        background-color: rgb(19, 19, 51);
+        color: white;
+        outline: none;
+    }
+
+}

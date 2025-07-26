@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  border-bottom: 2px solid red;
+}
+
+.login-button a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  margin-right: 2vw;
+
+  &:hover {
+    border-bottom: 4px solid rgb(38, 38, 221);
+    font-weight: 800;
+    font-size: x-large;
+  }
+}
+
+.fixed-top {
+  /* box-shadow: 2px 2px 15px 25px red; */
+  border-bottom: 5px solid #00246B;
+
+}
+
+.collapse li a {
+
+  margin-left: 25px;
+  font-weight: bolder;
+
+  &:hover {
+    border-bottom: 4px solid rgb(38, 38, 221);
+    font-weight: 800;
+    font-size: large;
+  }
+
+  &:focus {
+    border-bottom: 4px solid rgb(38, 38, 221);
+    font-weight: 800;
+    font-size: large;
+  }
+}
+
+.home-logo{
+  text-align: center;
+  font-size: 10rem;
+  color: #E32A62;
+}
+
+.p p{
+
+  text-align: center;
+  font-size:2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 900;
+  /* color:  darkolivegreen; */
+}
+
+main h1 {
+  text-align: center;
+  overflow: hidden;
+  font-style: italic;
+  font-size: 50px;
+  font-family: magra-bold-webfont;
+  word-spacing: 15px;
+  letter-spacing: 13px;
+  color: #00246B;
+  margin-top: 2rem;
+}
+
+main h2{
+  text-align: center;
+  letter-spacing: 5px;
+  color: #E32A62;
+  padding: 18px;
+  font-style: oblique;
+  font-size: larger;
+}
